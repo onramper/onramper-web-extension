@@ -1,32 +1,5 @@
 <h1 align="center">🚀 web-extension-starter</h1>
 <p align="center">Web Extension starter to build "Write Once Run on Any Browser" extension</p>
-<div align="center">
-  <a href="https://travis-ci.com/abhijithvijayan/web-extension-starter">
-    <img src="https://travis-ci.com/abhijithvijayan/web-extension-starter.svg?branch=react-typescript" alt="Travis Build" />
-  </a>
-  </a>
-  <a href="https://david-dm.org/abhijithvijayan/web-extension-starter">
-    <img src="https://img.shields.io/david/abhijithvijayan/web-extension-starter.svg?colorB=orange" alt="DEPENDENCIES" />
-  </a>
-  <a href="https://github.com/abhijithvijayan/web-extension-starter/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/abhijithvijayan/web-extension-starter.svg" alt="LICENSE" />
-  </a>
-  <a href="https://twitter.com/intent/tweet?text=Check%20out%20web-extension-starter%21%20by%20%40_abhijithv%0A%0AWeb%20Extension%20starter%20to%20build%20%22Write%20Once%20Run%20on%20Any%20Browser%22%20extension.%20https%3A%2F%2Fgithub.com%2Fabhijithvijayan%2Fweb-extension-starter%0A%0A%23javascript%20%23react%20%23typescript%20%23sass%20%23webextension%20%23chrome%20%23firefox%20%23opera">
-     <img src="https://img.shields.io/twitter/url/http/shields.io.svg?style=social" alt="TWEET" />
-  </a>
-</div>
-<h3 align="center">🙋‍♂️ Made by <a href="https://twitter.com/_abhijithv">@abhijithvijayan</a></h3>
-<p align="center">
-  Donate:
-  <a href="https://www.paypal.me/iamabhijithvijayan" target='_blank'><i><b>PayPal</b></i></a>,
-  <a href="https://www.patreon.com/abhijithvijayan" target='_blank'><i><b>Patreon</b></i></a>
-</p>
-<p align="center">
-  <a href='https://www.buymeacoffee.com/abhijithvijayan' target='_blank'>
-    <img height='36' style='border:0px;height:36px;' src='https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png' border='0' alt='Buy Me a Coffee' />
-  </a>
-</p>
-<hr />
 
 ❤️ it? ⭐️ it on [GitHub](https://github.com/abhijithvijayan/web-extension-starter) or [Tweet](https://twitter.com/intent/tweet?text=Check%20out%20web-extension-starter%21%20by%20%40_abhijithv%0A%0AWeb%20Extension%20starter%20to%20build%20%22Write%20Once%20Run%20on%20Any%20Browser%22%20extension.%20https%3A%2F%2Fgithub.com%2Fabhijithvijayan%2Fweb-extension-starter%0A%0A%23javascript%20%23react%20%23typescript%20%23sass%20%23webextension%20%23chrome%20%23firefox%20%23opera) about it.
 
@@ -53,17 +26,6 @@
 | [![Chrome](https://raw.github.com/alrra/browser-logos/master/src/chrome/chrome_48x48.png)](/) | [![Firefox](https://raw.github.com/alrra/browser-logos/master/src/firefox/firefox_48x48.png)](/) | [![Opera](https://raw.github.com/alrra/browser-logos/master/src/opera/opera_48x48.png)](/) | [![Edge](https://raw.github.com/alrra/browser-logos/master/src/edge/edge_48x48.png)](/) | [![Yandex](https://raw.github.com/alrra/browser-logos/master/src/yandex/yandex_48x48.png)](/) | [![Brave](https://raw.github.com/alrra/browser-logos/master/src/brave/brave_48x48.png)](/) | [![vivaldi](https://raw.github.com/alrra/browser-logos/master/src/vivaldi/vivaldi_48x48.png)](/) |
 | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ |
 | 49 & later ✔                                                                                  | 52 & later ✔                                                                                     | 36 & later ✔                                                                               | 79 & later ✔                                                                            | Latest ✔                                                                                      | Latest ✔                                                                                   | Latest ✔                                                                                         |
-
-## Used by extensions in production that has over 100,000+ users.
-
-- [daily.dev](https://daily.dev) in [daily.dev extension](https://r.daily.dev/get)
-- [Jiffy Reader](https://chrome.google.com/webstore/detail/jiffy-reader/lljedihjnnjjefafchaljkhbpfhfkdic) in [ansh/jiffyreader.com](https://github.com/ansh/jiffyreader.com)
-- [kutt-extension](https://chrome.google.com/webstore/detail/kutt/pklakpjfiegjacoppcodencchehlfnpd) in [abhijithvijayan/kutt-extension](https://github.com/abhijithvijayan/kutt-extension)
-- [doubanIMDb](https://chrome.google.com/webstore/detail/doubanimdb/nfibbjnhkbjlgjaojglmmibdjicidini) in [lisongx/doubanIMDb](https://github.com/lisongx/doubanIMDb)
-- [Mooc Assistant](https://chrome.google.com/webstore/detail/mooc-assistant/oebggekgendmoeedkkdkdcdbmfbfeldc) in [unbyte/mooc-assistant](https://github.com/unbyte/mooc-assistant)
-- ArtiPub in [crawlab-team/artipub](https://github.com/crawlab-team/artipub/tree/master/extensions)
-
-and many more...
 
 ## Use this template
 
@@ -168,18 +130,3 @@ if the vendor is `chrome` or `opera`, this compiles to:
   "name": "SuperBlink"
 }
 ```
-
-See the original [README](https://github.com/abhijithvijayan/wext-manifest-loader) of `wext-manifest-loader` package for more details
-
-## Bugs
-
-Please file an issue [here](https://github.com/abhijithvijayan/web-extension-starter/issues/new) for bugs, missing documentation, or unexpected behavior.
-
-### Linting & TypeScript Config
-
-- Shared Eslint & Prettier Configuration - [`@abhijithvijayan/eslint-config`](https://www.npmjs.com/package/@abhijithvijayan/eslint-config)
-- Shared TypeScript Configuration - [`@abhijithvijayan/tsconfig`](https://www.npmjs.com/package/@abhijithvijayan/tsconfig)
-
-## License
-
-MIT © [Abhijith Vijayan](https://abhijithvijayan.in)
