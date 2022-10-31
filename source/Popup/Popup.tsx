@@ -1,54 +1,22 @@
 import * as React from 'react';
-import {browser, Tabs} from 'webextension-polyfill-ts';
-
-import './styles.scss';
-
-function openWebPage(url: string): Promise<Tabs.Tab> {
-  return browser.tabs.create({url});
-}
+import OnramperWidget from '@onramper/widget';
 
 const Popup: React.FC = () => {
   return (
-    <section id="popup">
-      <h2>WEB-EXTENSION-STARTER</h2>
-      <button
-        id="options__button"
-        type="button"
-        onClick={(): Promise<Tabs.Tab> => {
-          return openWebPage('options.html');
-        }}
-      >
-        Options Page
-      </button>
-      <div className="links__holder">
-        <ul>
-          <li>
-            <button
-              type="button"
-              onClick={(): Promise<Tabs.Tab> => {
-                return openWebPage(
-                  'https://github.com/abhijithvijayan/web-extension-starter'
-                );
-              }}
-            >
-              GitHub
-            </button>
-          </li>
-          <li>
-            <button
-              type="button"
-              onClick={(): Promise<Tabs.Tab> => {
-                return openWebPage(
-                  'https://www.buymeacoffee.com/abhijithvijayan'
-                );
-              }}
-            >
-              Buy Me A Coffee
-            </button>
-          </li>
-        </ul>
-      </div>
-    </section>
+    <div
+      style={{
+        width: '440px',
+        height: '595px',
+        boxShadow: '0 2px 10px 0 rgba(0, 0, 0, 0.1)',
+        borderRadius: '10px',
+        margin: 'auto',
+      }}
+    >
+      <OnramperWidget
+        API_KEY="pk_test_ass3gtLSWQpI11IWUZLJdrfyQhj7bTw_3xwLvhEvH6Q0"
+        supportSell
+      />
+    </div>
   );
 };
 
